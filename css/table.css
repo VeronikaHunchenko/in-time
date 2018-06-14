@@ -1,0 +1,33 @@
+
+table {
+	border: var(--table-border);
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: var(--table-background-color);
+}
+td, th {
+	height: 40px;
+	padding-left: 17px;
+}
+tr {
+	border: var(--table-border);
+	
+}
+th {
+	text-align: left;
+	color: var(--table-th-color);
+}
+td {
+	color: var(--table-td-color);
+}
+td:nth-child(2) {
+	color: var(--table-primaty-color);
+
+}
+thead tr:nth-child(odd) {
+  	background-color: #fff;
+}
+tbody tr:nth-child(even) {
+  	background-color:#fff;
+}
